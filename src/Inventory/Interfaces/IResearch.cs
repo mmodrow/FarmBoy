@@ -11,7 +11,7 @@ namespace Inventory.Interfaces
     /// A Research job, that can be payed over time to unlock something.
     /// </summary>
     /// <seealso cref="Inventory.Interfaces.IRecipe" />
-    public interface IResearch : IRecipe
+    public interface IResearch : ICraftable
     {
         /// <summary>
         /// Gets or sets the resources, that already have been payed.

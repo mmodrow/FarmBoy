@@ -13,7 +13,7 @@ namespace Inventory
     /// </summary>
     /// <seealso cref="Inventory.Recipe" />
     /// <seealso cref="Inventory.Interfaces.IResearch" />
-    internal class Research : Recipe, IResearch
+    internal class Research : Craftable, IResearch
     {
         /// <summary>
         /// Gets or sets the resources, that already have been payed.
@@ -30,5 +30,16 @@ namespace Inventory
         /// The name of the research location.
         /// </value>
         public string ResearchLocationName { get; set; }
+
+        /// <summary>
+        /// Returns a <see cref="System.String" /> that represents this instance.
+        /// </summary>
+        /// <returns>
+        /// A <see cref="System.String" /> that represents this instance.
+        /// </returns>
+        public string ToString()
+        {
+            return Name + " Research";
+        }
     }
 }
