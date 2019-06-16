@@ -1,22 +1,36 @@
-﻿using Inventory.Interfaces;
-using System;
+﻿// <copyright file="ResourceFactory.cs" company="Marc A. Modrow">
+// Copyright (c) 2019 All Rights Reserved
+// <author>Marc A. Modrow</author>
+// </copyright>
+using Inventory.Interfaces;
+using Inventory.Repositories;
 
 namespace Inventory.Factories
 {
-    class ResourceFactory
+    /// <summary>
+    /// Factory to build Resources.
+    /// </summary>
+    internal class ResourceFactory
     {
-        public IResource Create(String name)
+        /// <summary>
+        /// Creates a Resource instance from the specified name.
+        /// </summary>
+        /// <param name="name">The name.</param>
+        /// <returns>The created Resource.</returns>
+        public IResource Create(string name)
         {
-            if (String.IsNullOrWhiteSpace(name) {
+            if (string.IsNullOrWhiteSpace(name))
+            {
                 return null;
             }
 
-            // TODO: Get from repository
-            String recipeName = null;
+            IResourceDataRepository resourceRepository = new ResourceDataRepository();
+            bool isCraftable = resourceRepository.Get(name).Item2;
             RecipeFactory recipeFactory = new RecipeFactory();
-            IRecipe recipe = recipeFactory.Create(recipeName);
+            IRecipe recipe = isCraftable ? recipeFactory.Create(name) : null;
 
-            return new Resource {
+            return new Resource
+            {
                 Name = name,
                 CraftingRecipe = recipe
             };

@@ -1,4 +1,4 @@
-﻿// <copyright file="RecipeFactory.cs" company="Marc A. Modrow">
+﻿// <copyright file="ResearchFactory.cs" company="Marc A. Modrow">
 // Copyright (c) 2019 All Rights Reserved
 // <author>Marc A. Modrow</author>
 // </copyright>
@@ -10,16 +10,16 @@ using Inventory.Repositories;
 namespace Inventory.Factories
 {
     /// <summary>
-    /// A factory to build crafting Recipies.
+    /// A factory to build Research projects.
     /// </summary>
-    internal class RecipeFactory
+    internal class ResearchFactory
     {
         /// <summary>
-        /// Creates a Recipe instance from the specified name.
+        /// Creates a Research instance from the specified name.
         /// </summary>
         /// <param name="name">The name.</param>
-        /// <returns>The created Recipe.</returns>
-        public IRecipe Create(string name)
+        /// <returns>The created Research.</returns>
+        public IResearch Create(string name)
         {
             if (string.IsNullOrWhiteSpace(name))
             {
@@ -27,22 +27,22 @@ namespace Inventory.Factories
             }
 
             ResourceFactory resourceFactory = new ResourceFactory();
-            IRecipeDataRepository recipeRepository = new RecipeDataRepository();
+            IResearchDataRepository researchRepository = new ResearchDataRepository();
 
-            Tuple<string, IDictionary<string, int>, bool> recipeData = recipeRepository.Get(name);
+            Tuple<string, IDictionary<string, int>, string> researchData = researchRepository.Get(name);
 
             IDictionary<IResource, int> requiredResources = new Dictionary<IResource, int>();
-            foreach (string resourceName in recipeData?.Item2?.Keys ?? new string[0])
+            foreach (string resourceName in researchData.Item2.Keys)
             {
                 IResource resource = resourceFactory.Create(resourceName);
-                requiredResources.Add(resource, recipeData.Item2[resourceName]);
+                requiredResources.Add(resource, researchData.Item2[resourceName]);
             }
 
-            return new Recipe
+            return new Research
             {
                 Name = name,
                 RequiredResources = requiredResources,
-                IsReusable = recipeData.Item3
+                ResearchLocationName = researchData.Item3
             };
         }
     }
