@@ -3,7 +3,6 @@
 // <author>Marc A. Modrow</author>
 // </copyright>
 
-using System.Collections.Generic;
 
 namespace Inventory.Interfaces
 {

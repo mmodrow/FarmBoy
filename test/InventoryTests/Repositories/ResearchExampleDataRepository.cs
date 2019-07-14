@@ -13,7 +13,7 @@ namespace Inventory.Repositories
     /// Repository to retrieve Resource data.
     /// </summary>
     /// <seealso cref="Inventory.Interfaces.IResourceRepository" />
-    internal class ResearchDataRepository : IResearchDataRepository
+    internal class ResearchExampleDataRepository : IResearchDataRepository
     {
         /// <summary>
         /// The data (mocks data from a database or similar).
@@ -44,7 +44,11 @@ namespace Inventory.Repositories
         /// </returns>
         public Tuple<string, IDictionary<string, int>, string> Get(string name)
         {
-            data.TryGetValue(name, out Tuple<IDictionary<string, int>, string> resources);
+            if (!data.TryGetValue(name, out Tuple<IDictionary<string, int>, string> resources))
+            {
+                return null;
+            }
+
             return new Tuple<string, IDictionary<string, int>, string>(name, resources.Item1, resources.Item2);
         }
     }

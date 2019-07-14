@@ -11,7 +11,7 @@ namespace Inventory.Interfaces
     /// <summary>
     /// Repository to retrieve Recipe data.
     /// </summary>
-    internal interface IRecipeDataRepository
+    public interface IRecipeDataRepository
     {
         /// <summary>
         /// Gets a Recipe data for the given name.

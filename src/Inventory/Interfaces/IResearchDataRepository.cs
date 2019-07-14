@@ -11,7 +11,7 @@ namespace Inventory.Interfaces
     /// <summary>
     /// Repository to retrieve Research data.
     /// </summary>
-    internal interface IResearchDataRepository
+    public interface IResearchDataRepository
     {
         /// <summary>
         /// Gets a Research data for the given name.

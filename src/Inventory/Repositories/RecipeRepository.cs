@@ -15,6 +15,20 @@ namespace Inventory.Repositories
     public class RecipeRepository : IRecipeRepository
     {
         /// <summary>
+        /// The data repositories
+        /// </summary>
+        private readonly DataRepositories DataRepositories;
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="RecipeRepository"/> class.
+        /// </summary>
+        /// <param name="dataRepositories">The data repositories.</param>
+        public RecipeRepository(DataRepositories dataRepositories)
+        {
+            DataRepositories = dataRepositories;
+        }
+
+        /// <summary>
         /// Gets a Recipe data for the given name.
         /// </summary>
         /// <param name="name">The name.</param>
@@ -23,7 +37,7 @@ namespace Inventory.Repositories
         /// </returns>
         public IRecipe Get(string name)
         {
-            RecipeFactory recipeFactory = new RecipeFactory();
+            RecipeFactory recipeFactory = new RecipeFactory(DataRepositories);
             return recipeFactory.Create(name);
         }
     }

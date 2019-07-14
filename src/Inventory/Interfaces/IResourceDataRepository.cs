@@ -10,7 +10,7 @@ namespace Inventory.Interfaces
     /// <summary>
     /// Repository to retrieve Resource data.
     /// </summary>
-    internal interface IResourceDataRepository
+    public interface IResourceDataRepository
     {
         /// <summary>
         /// Gets a Resource Data for the given name.

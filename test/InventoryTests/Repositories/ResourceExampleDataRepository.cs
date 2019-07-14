@@ -13,13 +13,14 @@ namespace Inventory.Repositories
     /// Repository to retrieve Resource data.
     /// </summary>
     /// <seealso cref="Inventory.Interfaces.IResourceRepository" />
-    internal class ResourceDataRepository : IResourceDataRepository
+    internal class ResourceExampleDataRepository : IResourceDataRepository
     {
         /// <summary>
         /// The data (mocks data from a database or similar).
         /// </summary>
         private IDictionary<string, bool> data = new Dictionary<string, bool>
         {
+            { "Circuits", false },
             { "Control Module", false },
             { "Credits", false },
             { "Mutagen Sample", false },
@@ -38,7 +39,11 @@ namespace Inventory.Repositories
         /// </returns>
         public Tuple<string, bool> Get(string name)
         {
-            data.TryGetValue(name, out bool isCraftable);
+            if (!data.TryGetValue(name, out bool isCraftable))
+            {
+                return null;
+            }
+
             return new Tuple<string, bool>(name, isCraftable);
         }
     }

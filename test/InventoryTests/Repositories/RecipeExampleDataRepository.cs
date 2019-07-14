@@ -7,13 +7,13 @@ using System;
 using System.Collections.Generic;
 using Inventory.Interfaces;
 
-namespace Inventory.Repositories
+namespace Tests.InventoryTests.Repositories
 {
     /// <summary>
     /// Repository to retrieve Resource data.
     /// </summary>
     /// <seealso cref="Inventory.Interfaces.IResourceRepository" />
-    internal class RecipeDataRepository : IRecipeDataRepository
+    internal class RecipeExampleDataRepository : IRecipeDataRepository
     {
         /// <summary>
         /// The data (mocks data from a database or similar).
@@ -45,6 +45,12 @@ namespace Inventory.Repositories
         public Tuple<string, IDictionary<string, int>, bool> Get(string name)
         {
             data.TryGetValue(name, out Tuple<IDictionary<string, int>, bool> recipeData);
+
+            if (recipeData == null)
+            {
+                return null;
+            }
+
             return new Tuple<string, IDictionary<string, int>, bool>(name, recipeData.Item1, recipeData.Item2);
         }
     }

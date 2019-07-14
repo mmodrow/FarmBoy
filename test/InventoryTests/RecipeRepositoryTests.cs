@@ -5,23 +5,39 @@
 
 using Inventory.Interfaces;
 using Inventory.Repositories;
+using InventoryTests.Repositories;
 using NUnit.Framework;
+using Tests.InventoryTests.Repositories;
 
-namespace Tests
+namespace Tests.InventoryTests
 {
     public class RecipeRepositoryTests
     {
+        private ExampleDataRepositoryFactory ExampleDataFactory = null;
+
         [SetUp]
         public void Setup()
         {
+            ExampleDataFactory = new ExampleDataRepositoryFactory();
         }
 
         [Test]
-        public void Test1()
+        public void GetExistingExampleReturnsRecipe()
         {
-            IRecipeRepository recipeRepository = new RecipeRepository();
+            IRecipeRepository recipeRepository = new RecipeRepository(ExampleDataFactory.Create());
             IRecipe recipe = recipeRepository.Get("Mutagen Mass");
-            Assert.Pass();
+            Assert.IsNotNull(recipe);
+            Assert.False(recipe.IsReusable);
+            Assert.AreEqual("Mutagen Mass", recipe.Name);
+        }
+
+        [Test]
+        public void GetNonExistingExampleReturnsNull()
+        {
+            IRecipeRepository recipeRepository = new RecipeRepository(ExampleDataFactory.Create());
+
+            IRecipe recipe = recipeRepository.Get("Foobar2000");
+            Assert.IsNull(recipe);
         }
     }
 }

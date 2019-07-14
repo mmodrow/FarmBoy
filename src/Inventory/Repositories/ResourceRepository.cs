@@ -15,6 +15,20 @@ namespace Inventory.Repositories
     public class ResourceRepository : IResourceRepository
     {
         /// <summary>
+        /// The data repositories
+        /// </summary>
+        private readonly DataRepositories DataRepositories;
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="ResourceRepository"/> class.
+        /// </summary>
+        /// <param name="dataRepositories">The data repositories.</param>
+        public ResourceRepository(DataRepositories dataRepositories)
+        {
+            DataRepositories = dataRepositories;
+        }
+
+        /// <summary>
         /// Gets a Resource Data for the given name.
         /// </summary>
         /// <param name="name">The name.</param>
@@ -23,7 +37,7 @@ namespace Inventory.Repositories
         /// </returns>
         public IResource Get(string name)
         {
-            ResourceFactory resourceFactory = new ResourceFactory();
+            ResourceFactory resourceFactory = new ResourceFactory(DataRepositories);
             return resourceFactory.Create(name);
         }
     }
