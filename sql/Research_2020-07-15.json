@@ -1,0 +1,938 @@
+[
+    {
+        "Lab": "Energy Lab",
+        "research_facility_id": 2,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Amprex",
+        "Url": "https://warframe.fandom.com/wiki/Amprex"
+    },
+    {
+        "Lab": "Energy Lab",
+        "research_facility_id": 2,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Arca Plasmor",
+        "Url": "https://warframe.fandom.com/wiki/Arca_Plasmor"
+    },
+    {
+        "Lab": "Energy Lab",
+        "research_facility_id": 2,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Arca Scisco",
+        "Url": "https://warframe.fandom.com/wiki/Arca_Scisco"
+    },
+    {
+        "Lab": "Energy Lab",
+        "research_facility_id": 2,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Battacor",
+        "Url": "https://warframe.fandom.com/wiki/Battacor"
+    },
+    {
+        "Lab": "Energy Lab",
+        "research_facility_id": 2,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Convectrix",
+        "Url": "https://warframe.fandom.com/wiki/Convectrix"
+    },
+    {
+        "Lab": "Energy Lab",
+        "research_facility_id": 2,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Cyanex",
+        "Url": "https://warframe.fandom.com/wiki/Cyanex"
+    },
+    {
+        "Lab": "Energy Lab",
+        "research_facility_id": 2,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Cycron",
+        "Url": "https://warframe.fandom.com/wiki/Cycron"
+    },
+    {
+        "Lab": "Energy Lab",
+        "research_facility_id": 2,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Dera",
+        "Url": "https://warframe.fandom.com/wiki/Dera"
+    },
+    {
+        "Lab": "Energy Lab",
+        "research_facility_id": 2,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Dual Cestra",
+        "Url": "https://warframe.fandom.com/wiki/Dual_Cestra"
+    },
+    {
+        "Lab": "Energy Lab",
+        "research_facility_id": 2,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Falcor",
+        "Url": "https://warframe.fandom.com/wiki/Falcor"
+    },
+    {
+        "Lab": "Energy Lab",
+        "research_facility_id": 2,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Ferrox",
+        "Url": "https://warframe.fandom.com/wiki/Ferrox"
+    },
+    {
+        "Lab": "Energy Lab",
+        "research_facility_id": 2,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Flux Rifle",
+        "Url": "https://warframe.fandom.com/wiki/Flux_Rifle"
+    },
+    {
+        "Lab": "Energy Lab",
+        "research_facility_id": 2,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Glaxion",
+        "Url": "https://warframe.fandom.com/wiki/Glaxion"
+    },
+    {
+        "Lab": "Energy Lab",
+        "research_facility_id": 2,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Komorex",
+        "Url": "https://warframe.fandom.com/wiki/Komorex"
+    },
+    {
+        "Lab": "Energy Lab",
+        "research_facility_id": 2,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Kreska",
+        "Url": "https://warframe.fandom.com/wiki/Kreska"
+    },
+    {
+        "Lab": "Energy Lab",
+        "research_facility_id": 2,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Lanka",
+        "Url": "https://warframe.fandom.com/wiki/Lanka"
+    },
+    {
+        "Lab": "Energy Lab",
+        "research_facility_id": 2,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Lenz",
+        "Url": "https://warframe.fandom.com/wiki/Lenz"
+    },
+    {
+        "Lab": "Energy Lab",
+        "research_facility_id": 2,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Ocucor",
+        "Url": "https://warframe.fandom.com/wiki/Ocucor"
+    },
+    {
+        "Lab": "Energy Lab",
+        "research_facility_id": 2,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Opticor",
+        "Url": "https://warframe.fandom.com/wiki/Opticor"
+    },
+    {
+        "Lab": "Energy Lab",
+        "research_facility_id": 2,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Prova",
+        "Url": "https://warframe.fandom.com/wiki/Prova"
+    },
+    {
+        "Lab": "Energy Lab",
+        "research_facility_id": 2,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Quanta",
+        "Url": "https://warframe.fandom.com/wiki/Quanta"
+    },
+    {
+        "Lab": "Energy Lab",
+        "research_facility_id": 2,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Serro",
+        "Url": "https://warframe.fandom.com/wiki/Serro"
+    },
+    {
+        "Lab": "Energy Lab",
+        "research_facility_id": 2,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Spectra",
+        "Url": "https://warframe.fandom.com/wiki/Spectra"
+    },
+    {
+        "Lab": "Energy Lab",
+        "research_facility_id": 2,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Staticor",
+        "Url": "https://warframe.fandom.com/wiki/Staticor"
+    },
+    {
+        "Lab": "Energy Lab",
+        "research_facility_id": 2,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Supra",
+        "Url": "https://warframe.fandom.com/wiki/Supra"
+    },
+    {
+        "Lab": "Energy Lab",
+        "research_facility_id": 2,
+        "Type": "Sentinel",
+        "resource_type_id": 10,
+        "Name": "Helios",
+        "Url": "https://warframe.fandom.com/wiki/Helios"
+    },
+    {
+        "Lab": "Energy Lab",
+        "research_facility_id": 2,
+        "Type": "Miscellaneous",
+        "resource_type_id": 1,
+        "Name": "Antiserum Injector",
+        "Url": "https://warframe.fandom.com/wiki/Antiserum_Injector"
+    },
+    {
+        "Lab": "Energy Lab",
+        "research_facility_id": 2,
+        "Type": "Miscellaneous",
+        "resource_type_id": 1,
+        "Name": "Fieldron",
+        "Url": "https://warframe.fandom.com/wiki/Fieldron"
+    },
+    {
+        "Lab": "Energy Lab",
+        "research_facility_id": 2,
+        "Type": "Miscellaneous",
+        "resource_type_id": 1,
+        "Name": "Squad Energy Restore (Medium)",
+        "Url": "https://warframe.fandom.com/wiki/Squad_Energy_Restore_(Medium)"
+    },
+    {
+        "Lab": "Energy Lab",
+        "research_facility_id": 2,
+        "Type": "Miscellaneous",
+        "resource_type_id": 1,
+        "Name": "Squad Shield Restore (Medium)",
+        "Url": "https://warframe.fandom.com/wiki/Squad_Shield_Restore_(Medium)"
+    },
+    {
+        "Lab": "Bio Lab",
+        "research_facility_id": 3,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Acrid",
+        "Url": "https://warframe.fandom.com/wiki/Acrid"
+    },
+    {
+        "Lab": "Bio Lab",
+        "research_facility_id": 3,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Caustacyst",
+        "Url": "https://warframe.fandom.com/wiki/Caustacyst"
+    },
+    {
+        "Lab": "Bio Lab",
+        "research_facility_id": 3,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Cerata",
+        "Url": "https://warframe.fandom.com/wiki/Cerata"
+    },
+    {
+        "Lab": "Bio Lab",
+        "research_facility_id": 3,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Dual Ichor",
+        "Url": "https://warframe.fandom.com/wiki/Dual_Ichor"
+    },
+    {
+        "Lab": "Bio Lab",
+        "research_facility_id": 3,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Dual Toxocyst",
+        "Url": "https://warframe.fandom.com/wiki/Dual_Toxocyst"
+    },
+    {
+        "Lab": "Bio Lab",
+        "research_facility_id": 3,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Embolist",
+        "Url": "https://warframe.fandom.com/wiki/Embolist"
+    },
+    {
+        "Lab": "Bio Lab",
+        "research_facility_id": 3,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Hema",
+        "Url": "https://warframe.fandom.com/wiki/Hema"
+    },
+    {
+        "Lab": "Bio Lab",
+        "research_facility_id": 3,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Mutalist Quanta",
+        "Url": "https://warframe.fandom.com/wiki/Mutalist_Quanta"
+    },
+    {
+        "Lab": "Bio Lab",
+        "research_facility_id": 3,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Paracyst",
+        "Url": "https://warframe.fandom.com/wiki/Paracyst"
+    },
+    {
+        "Lab": "Bio Lab",
+        "research_facility_id": 3,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Phage",
+        "Url": "https://warframe.fandom.com/wiki/Phage"
+    },
+    {
+        "Lab": "Bio Lab",
+        "research_facility_id": 3,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Pox",
+        "Url": "https://warframe.fandom.com/wiki/Pox"
+    },
+    {
+        "Lab": "Bio Lab",
+        "research_facility_id": 3,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Pupacyst",
+        "Url": "https://warframe.fandom.com/wiki/Pupacyst"
+    },
+    {
+        "Lab": "Bio Lab",
+        "research_facility_id": 3,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Scoliac",
+        "Url": "https://warframe.fandom.com/wiki/Scoliac"
+    },
+    {
+        "Lab": "Bio Lab",
+        "research_facility_id": 3,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Synapse",
+        "Url": "https://warframe.fandom.com/wiki/Synapse"
+    },
+    {
+        "Lab": "Bio Lab",
+        "research_facility_id": 3,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Torid",
+        "Url": "https://warframe.fandom.com/wiki/Torid"
+    },
+    {
+        "Lab": "Bio Lab",
+        "research_facility_id": 3,
+        "Type": "Sentinel",
+        "resource_type_id": 10,
+        "Name": "Djinn",
+        "Url": "https://warframe.fandom.com/wiki/Djinn"
+    },
+    {
+        "Lab": "Bio Lab",
+        "research_facility_id": 3,
+        "Type": "Miscellaneous",
+        "resource_type_id": 1,
+        "Name": "Infested Catalyst",
+        "Url": "https://warframe.fandom.com/wiki/Infested_Catalyst"
+    },
+    {
+        "Lab": "Bio Lab",
+        "research_facility_id": 3,
+        "Type": "Miscellaneous",
+        "resource_type_id": 1,
+        "Name": "Squad Health Restore (Medium)",
+        "Url": "https://warframe.fandom.com/wiki/Squad_Health_Restore_(Medium)"
+    },
+    {
+        "Lab": "Bio Lab",
+        "research_facility_id": 3,
+        "Type": "Miscellaneous",
+        "resource_type_id": 1,
+        "Name": "Mutagen Mass",
+        "Url": "https://warframe.fandom.com/wiki/Mutagen_Mass"
+    },
+    {
+        "Lab": "Chem Lab",
+        "research_facility_id": 4,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Ack & Brunt",
+        "Url": "https://warframe.fandom.com/wiki/Ack_%26_Brunt"
+    },
+    {
+        "Lab": "Chem Lab",
+        "research_facility_id": 4,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Argonak",
+        "Url": "https://warframe.fandom.com/wiki/Argonak"
+    },
+    {
+        "Lab": "Chem Lab",
+        "research_facility_id": 4,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Buzlok",
+        "Url": "https://warframe.fandom.com/wiki/Buzlok"
+    },
+    {
+        "Lab": "Chem Lab",
+        "research_facility_id": 4,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Grinlok",
+        "Url": "https://warframe.fandom.com/wiki/Grinlok"
+    },
+    {
+        "Lab": "Chem Lab",
+        "research_facility_id": 4,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Ignis",
+        "Url": "https://warframe.fandom.com/wiki/Ignis"
+    },
+    {
+        "Lab": "Chem Lab",
+        "research_facility_id": 4,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Wraith",
+        "Url": "https://warframe.fandom.com/wiki/Ignis_Wraith"
+    },
+    {
+        "Lab": "Chem Lab",
+        "research_facility_id": 4,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Jat Kittag",
+        "Url": "https://warframe.fandom.com/wiki/Jat_Kittag"
+    },
+    {
+        "Lab": "Chem Lab",
+        "research_facility_id": 4,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Jat Kusar",
+        "Url": "https://warframe.fandom.com/wiki/Jat_Kusar"
+    },
+    {
+        "Lab": "Chem Lab",
+        "research_facility_id": 4,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Javlok",
+        "Url": "https://warframe.fandom.com/wiki/Javlok"
+    },
+    {
+        "Lab": "Chem Lab",
+        "research_facility_id": 4,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Kesheg",
+        "Url": "https://warframe.fandom.com/wiki/Kesheg"
+    },
+    {
+        "Lab": "Chem Lab",
+        "research_facility_id": 4,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Kohmak",
+        "Url": "https://warframe.fandom.com/wiki/Kohmak"
+    },
+    {
+        "Lab": "Chem Lab",
+        "research_facility_id": 4,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Marelok",
+        "Url": "https://warframe.fandom.com/wiki/Marelok"
+    },
+    {
+        "Lab": "Chem Lab",
+        "research_facility_id": 4,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Nukor",
+        "Url": "https://warframe.fandom.com/wiki/Nukor"
+    },
+    {
+        "Lab": "Chem Lab",
+        "research_facility_id": 4,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Ogris",
+        "Url": "https://warframe.fandom.com/wiki/Ogris"
+    },
+    {
+        "Lab": "Chem Lab",
+        "research_facility_id": 4,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Sydon",
+        "Url": "https://warframe.fandom.com/wiki/Sydon"
+    },
+    {
+        "Lab": "Chem Lab",
+        "research_facility_id": 4,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Twin Krohkur",
+        "Url": "https://warframe.fandom.com/wiki/Twin_Krohkur"
+    },
+    {
+        "Lab": "Chem Lab",
+        "research_facility_id": 4,
+        "Type": "Archweapon",
+        "resource_type_id": 5,
+        "Name": "Grattler",
+        "Url": "https://warframe.fandom.com/wiki/Grattler"
+    },
+    {
+        "Lab": "Chem Lab",
+        "research_facility_id": 4,
+        "Type": "Archweapon",
+        "resource_type_id": 5,
+        "Name": "Knux",
+        "Url": "https://warframe.fandom.com/wiki/Knux"
+    },
+    {
+        "Lab": "Chem Lab",
+        "research_facility_id": 4,
+        "Type": "Miscellaneous",
+        "resource_type_id": 1,
+        "Name": "Detonite Injector",
+        "Url": "https://warframe.fandom.com/wiki/Detonite_Injector"
+    },
+    {
+        "Lab": "Chem Lab",
+        "research_facility_id": 4,
+        "Type": "Miscellaneous",
+        "resource_type_id": 1,
+        "Name": "Squad Ammo Restore (Medium)",
+        "Url": "https://warframe.fandom.com/wiki/Squad_Ammo_Restore_(Medium)"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Warframe",
+        "resource_type_id": 2,
+        "Name": "Banshee",
+        "Url": "https://warframe.fandom.com/wiki/Banshee"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Warframe",
+        "resource_type_id": 2,
+        "Name": "Nezha",
+        "Url": "https://warframe.fandom.com/wiki/Nezha"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Warframe",
+        "resource_type_id": 2,
+        "Name": "Volt",
+        "Url": "https://warframe.fandom.com/wiki/Volt"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Warframe",
+        "resource_type_id": 2,
+        "Name": "Wukong",
+        "Url": "https://warframe.fandom.com/wiki/Wukong"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Warframe",
+        "resource_type_id": 2,
+        "Name": "Zephyr",
+        "Url": "https://warframe.fandom.com/wiki/Zephyr"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Archwing",
+        "resource_type_id": 4,
+        "Name": "Amesha",
+        "Url": "https://warframe.fandom.com/wiki/Amesha"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Archwing",
+        "resource_type_id": 4,
+        "Name": "Elytron",
+        "Url": "https://warframe.fandom.com/wiki/Elytron"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Archwing",
+        "resource_type_id": 4,
+        "Name": "Itzal",
+        "Url": "https://warframe.fandom.com/wiki/Itzal"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Akstiletto",
+        "Url": "https://warframe.fandom.com/wiki/Akstiletto"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Anku",
+        "Url": "https://warframe.fandom.com/wiki/Anku"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Attica",
+        "Url": "https://warframe.fandom.com/wiki/Attica"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Baza",
+        "Url": "https://warframe.fandom.com/wiki/Baza"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Castanas",
+        "Url": "https://warframe.fandom.com/wiki/Castanas"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Cassowar",
+        "Url": "https://warframe.fandom.com/wiki/Cassowar"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Daikyu",
+        "Url": "https://warframe.fandom.com/wiki/Daikyu"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Dark Split-Sword",
+        "Url": "https://warframe.fandom.com/wiki/Dark_Split-Sword"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Dual Raza",
+        "Url": "https://warframe.fandom.com/wiki/Dual_Raza"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Endura",
+        "Url": "https://warframe.fandom.com/wiki/Endura"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Guandao",
+        "Url": "https://warframe.fandom.com/wiki/Guandao"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Gunsen",
+        "Url": "https://warframe.fandom.com/wiki/Gunsen"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Lacera",
+        "Url": "https://warframe.fandom.com/wiki/Lacera"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Nami Skyla",
+        "Url": "https://warframe.fandom.com/wiki/Nami_Skyla"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Nikana",
+        "Url": "https://warframe.fandom.com/wiki/Nikana"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Okina",
+        "Url": "https://warframe.fandom.com/wiki/Okina"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Pyrana",
+        "Url": "https://warframe.fandom.com/wiki/Pyrana"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Scourge",
+        "Url": "https://warframe.fandom.com/wiki/Scourge"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Shaku",
+        "Url": "https://warframe.fandom.com/wiki/Shaku"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Silva & Aegis",
+        "Url": "https://warframe.fandom.com/wiki/Silva_%26_Aegis"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Sybaris",
+        "Url": "https://warframe.fandom.com/wiki/Sybaris"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Talons",
+        "Url": "https://warframe.fandom.com/wiki/Talons"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Tonbo",
+        "Url": "https://warframe.fandom.com/wiki/Tonbo"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Venka",
+        "Url": "https://warframe.fandom.com/wiki/Venka"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Weapon",
+        "resource_type_id": 3,
+        "Name": "Zakti",
+        "Url": "https://warframe.fandom.com/wiki/Zakti"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Archweapon",
+        "resource_type_id": 5,
+        "Name": "Fluctus",
+        "Url": "https://warframe.fandom.com/wiki/Fluctus"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Archweapon",
+        "resource_type_id": 5,
+        "Name": "Larkspur",
+        "Url": "https://warframe.fandom.com/wiki/Larkspur"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Archweapon",
+        "resource_type_id": 5,
+        "Name": "Velocitus",
+        "Url": "https://warframe.fandom.com/wiki/Velocitus"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Components",
+        "resource_type_id": 9,
+        "Name": "Archwing Launcher Segment",
+        "Url": "https://warframe.fandom.com/wiki/Archwing_Launcher_Segment"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Components",
+        "resource_type_id": 9,
+        "Name": "Incubator Upgrade Segment",
+        "Url": "https://warframe.fandom.com/wiki/Incubator_Upgrade_Segment"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Components",
+        "resource_type_id": 9,
+        "Name": "Landing Craft Foundry Segment",
+        "Url": "https://warframe.fandom.com/wiki/Landing_Craft_Foundry_Segment"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Components",
+        "resource_type_id": 9,
+        "Name": "Nutrio Incubator Upgrade Segment",
+        "Url": "https://warframe.fandom.com/wiki/Nutrio_Incubator_Upgrade_Segment"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Miscellaneous",
+        "resource_type_id": 1,
+        "Name": "Adrenal Stim",
+        "Url": "https://warframe.fandom.com/wiki/Stims#Adrenal"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Miscellaneous",
+        "resource_type_id": 1,
+        "Name": "Calcifin Stim",
+        "Url": "https://warframe.fandom.com/wiki/Stims#Calcifin"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Miscellaneous",
+        "resource_type_id": 1,
+        "Name": "Clotra Stim",
+        "Url": "https://warframe.fandom.com/wiki/Stims#Clotra"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Miscellaneous",
+        "resource_type_id": 1,
+        "Name": "Gravimag",
+        "Url": "https://warframe.fandom.com/wiki/Gravimag"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Miscellaneous",
+        "resource_type_id": 1,
+        "Name": "Loc-Pin",
+        "Url": "https://warframe.fandom.com/wiki/Loc-Pin"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Miscellaneous",
+        "resource_type_id": 1,
+        "Name": "Pigment",
+        "Url": "https://warframe.fandom.com/wiki/Pigment"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Miscellaneous",
+        "resource_type_id": 1,
+        "Name": "Refract Stim",
+        "Url": "https://warframe.fandom.com/wiki/Stims#Refract"
+    },
+    {
+        "Lab": "Tenno Lab",
+        "research_facility_id": 1,
+        "Type": "Miscellaneous",
+        "resource_type_id": 1,
+        "Name": "Synthula",
+        "Url": "https://warframe.fandom.com/wiki/Synthula"
+    }
+]
